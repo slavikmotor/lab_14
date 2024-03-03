@@ -1,8 +1,6 @@
 # ninja log v5
-2	123	7253110969061164	CMakeFiles/untitled1.dir/main.c.obj	3c42298ac3a0f826
-123	209	7253110969901352	untitled1.exe	50e5d9af3cf1d797
-2	162	7311777976806460	build.ninja	c211fe3d33489513
 2	127	7311777979009242	CMakeFiles/untitled1.dir/main.c.obj	3c42298ac3a0f826
-12	128	7311777979021558	libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj	3f790b54cd9b53b
-128	240	7311777980141256	libs/data_structures/libdata_structures.a	5c2d59b9402aaf94
 240	464	7311777982352082	untitled1.exe	4be0281b8e095e8f
+2	162	7311783020970020	build.ninja	c211fe3d33489513
+128	240	7311777980141256	libs/data_structures/libdata_structures.a	5c2d59b9402aaf94
+12	128	7311777979021558	libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj	3f790b54cd9b53b
