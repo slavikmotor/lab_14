@@ -1,6 +1,5 @@
 #ifndef LABA15_MATRIX_H
 #define LABA15_MATRIX_H
-
 #include <stdio.h>
 #include <malloc.h>
 #include <stdint.h>
@@ -8,7 +7,6 @@
 #include <memory.h>
 #include <stdbool.h>
 #include <stdlib.h>
-
 typedef struct matrix {
     int **values; // элементы матрицы
     int nRows; // количество рядов
@@ -46,11 +44,11 @@ void insertionSortRowsMatrixByRowCriteria(matrix m, int (*criteria)(int*,
 //неубыванию значения функции criteria применяемой для столбцов
 void insertionSortColsMatrixByColCriteria(matrix m, int (*criteria)(int*,
                                                                     int));
-//возвращает значение ’истина’, если матрица m является квадратной, ложь – впротивном случае
+//возвращает значение ’истина’, если матрица m является квадратной, ложь – в противном случае
 bool isSquareMatrix(matrix m);
-//возвращает значение ’истина’, если матрицы m1 и m2 равны, ложь – впротивном случае
+//возвращает значение ’истина’, если матрицы m1 и m2 равны, ложь – в противном случае
 bool areTwoMatricesEqual(matrix m1, matrix m2);
-//возвращает значение ’истина’, если матрица m является единичной, ложь – впротивном случае
+//возвращает значение ’истина’, если матрица m является единичной, ложь – в противном случае
 bool isEMatrix(matrix m);
 //возвращает значение ’истина’, если матрица m является симметричной, ложь –в противном случае
 bool isSymmetricMatrix(matrix m);

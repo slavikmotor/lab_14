@@ -150,6 +150,12 @@ build libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj: C
   OBJECT_DIR = libs\data_structures\CMakeFiles\data_structures.dir
   OBJECT_FILE_DIR = libs\data_structures\CMakeFiles\data_structures.dir\matrix
 
+build libs/data_structures/CMakeFiles/data_structures.dir/matrix/test.matrix.c.obj: C_COMPILER__data_structures_unscanned_Debug C$:/Users/Компьютер/CLionProjects/untitled1/libs/data_structures/matrix/test.matrix.c || cmake_object_order_depends_target_data_structures
+  DEP_FILE = libs\data_structures\CMakeFiles\data_structures.dir\matrix\test.matrix.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = libs\data_structures\CMakeFiles\data_structures.dir
+  OBJECT_FILE_DIR = libs\data_structures\CMakeFiles\data_structures.dir\matrix
+
 
 # =============================================================================
 # Link build statements for STATIC_LIBRARY target data_structures
@@ -158,7 +164,7 @@ build libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj: C
 #############################################
 # Link the static library libs\data_structures\libdata_structures.a
 
-build libs/data_structures/libdata_structures.a: C_STATIC_LIBRARY_LINKER__data_structures_Debug libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj
+build libs/data_structures/libdata_structures.a: C_STATIC_LIBRARY_LINKER__data_structures_Debug libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj libs/data_structures/CMakeFiles/data_structures.dir/matrix/test.matrix.c.obj
   LANGUAGE_COMPILE_FLAGS = -g
   OBJECT_DIR = libs\data_structures\CMakeFiles\data_structures.dir
   POST_BUILD = cd .

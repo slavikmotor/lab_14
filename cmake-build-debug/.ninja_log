@@ -1,6 +1,23 @@
 # ninja log v5
 2	127	7311777979009242	CMakeFiles/untitled1.dir/main.c.obj	3c42298ac3a0f826
 240	464	7311777982352082	untitled1.exe	4be0281b8e095e8f
-2	162	7318841114239625	build.ninja	c211fe3d33489513
+2	162	7318864600840359	build.ninja	c211fe3d33489513
 128	240	7311777980141256	libs/data_structures/libdata_structures.a	5c2d59b9402aaf94
 12	128	7311777979021558	libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj	3f790b54cd9b53b
+14	148	7318869825817847	libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj	5030f46999ddff1b
+20	156	7318869825911221	libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj	3f790b54cd9b53b
+17	132	7318889144132162	libs/data_structures/CMakeFiles/data_structures.dir/matrix/test.matrix.c.obj	2a94db84862d7bd6
+13	138	7318889144228947	libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj	5030f46999ddff1b
+22	169	7318889144552137	libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj	3f790b54cd9b53b
+24	134	7318889369101773	libs/data_structures/CMakeFiles/data_structures.dir/matrix/test.matrix.c.obj	2a94db84862d7bd6
+14	138	7318889369136069	libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj	5030f46999ddff1b
+19	163	7318889369389213	libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj	3f790b54cd9b53b
+2	172	7318889369416060	CMakeFiles/untitled1.dir/main.c.obj	3c42298ac3a0f826
+163	284	7318889370599988	libs/data_structures/libdata_structures.a	afb06381c5f86d60
+284	523	7318889372945742	untitled1.exe	4be0281b8e095e8f
+22	118	7318889489311519	libs/data_structures/CMakeFiles/data_structures.dir/matrix/test.matrix.c.obj	2a94db84862d7bd6
+18	133	7318889489469888	libs/data_structures/CMakeFiles/data_structures.dir/matrix/matrix.c.obj	5030f46999ddff1b
+13	139	7318889489524064	libs/data_structures/CMakeFiles/data_structures.dir/vector/vector.c.obj	3f790b54cd9b53b
+2	152	7318889489651841	CMakeFiles/untitled1.dir/main.c.obj	3c42298ac3a0f826
+139	201	7318889490144263	libs/data_structures/libdata_structures.a	afb06381c5f86d60
+201	283	7318889490942134	untitled1.exe	4be0281b8e095e8f
