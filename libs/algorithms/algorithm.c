@@ -1,3 +1,7 @@
-//
-// Created by Компьютер on 17.03.2024.
-//
+#include "algorithm.h"
+
+void swap(int *a, int *b) {
+    int t = *a;
+    *a = *b;
+    *b = t;
+}

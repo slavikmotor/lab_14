@@ -1,8 +1,6 @@
-//
-// Created by Компьютер on 17.03.2024.
-//
+#ifndef COURSE_ALGORITHM_H
+#define COURSE_ALGORITHM_H
 
-#ifndef UNTITLED1_ALGORITHM_H
-#define UNTITLED1_ALGORITHM_H
+void swap(int *a, int *b);
 
-#endif //UNTITLED1_ALGORITHM_H
+#endif //COURSE_ALGORITHM_H
