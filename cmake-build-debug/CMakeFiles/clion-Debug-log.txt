@@ -1,13 +1,10 @@
 "C:\Program Files\JetBrains\CLion 2023.2.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2023.2.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\Компьютер\CLionProjects\untitled1 -B C:\Users\Компьютер\CLionProjects\untitled1\cmake-build-debug
--- Configuring done (0.3s)
-CMake Error at libs/data_structures/CMakeLists.txt:1 (add_library):
-  Cannot find source file:
+CMake Error at CMakeLists.txt:10 (add_subdirectory):
+  The source directory
 
-    matrix/test.matrix.c
+    C:/Users/Компьютер/CLionProjects/untitled1/libs
 
-
-CMake Error at libs/data_structures/CMakeLists.txt:1 (add_library):
-  No SOURCES given to target: data_structures
+  does not contain a CMakeLists.txt file.
 
 
-CMake Generate step failed.  Build files cannot be regenerated correctly.
+-- Configuring incomplete, errors occurred!
