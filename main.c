@@ -1,6 +1,6 @@
 #include "libs/data_structures/matrix/matrix.h"
 #include <minmax.h>
-#include "libs/util/util.h"
+#include "libs/utili/utili.h"
 #include <math.h>
 
 void swapMaxElementRowAndMinElementRow(matrix matrix) {

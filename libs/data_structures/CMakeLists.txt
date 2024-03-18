@@ -4,4 +4,6 @@ add_library(data_structures
         matrix/matrix.c
         matrix/matrix.h
         matrix/test.matrix.c
+        utili/utili.c
+        utili/utili.h
 )
