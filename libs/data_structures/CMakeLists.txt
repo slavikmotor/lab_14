@@ -6,4 +6,5 @@ add_library(data_structures
         matrix/test.matrix.c
         utili/utili.c
         utili/utili.h
+        utili/resheniya.cpp
 )
