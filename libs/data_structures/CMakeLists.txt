@@ -7,4 +7,22 @@ add_library(data_structures
         utili/utili.c
         utili/utili.h
         utili/resheniya.cpp
+        laba18/task/task1.cpp
+        laba18/task/task2.cpp
+        laba18/task/task3.cpp
+        laba18/task/task4.cpp
+        laba18/task/task5.cpp
+        laba18/task/task6.cpp
+        laba18/task/task7.cpp
+        laba18/task/task8.cpp
+        laba18/task/task9.cpp
+        laba18/task/task10.cpp
+        laba18/task/task11.cpp
+        laba18/task/task12.cpp
+        laba18/task/task13.cpp
+        laba18/task/task14.cpp
+        laba18/task/task15.cpp
+        laba18/task/task16.cpp
+        laba18/task/task17.cpp
+        laba18/task/task18.cpp
 )
