@@ -25,4 +25,6 @@ add_library(data_structures
         laba18/task/task16.cpp
         laba18/task/task17.cpp
         laba18/task/task18.cpp
+        laba18/task/test_for_task.cpp
+        laba18/task/task19.cpp
 )

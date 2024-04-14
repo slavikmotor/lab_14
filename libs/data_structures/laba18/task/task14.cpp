@@ -44,37 +44,4 @@ bool are_identical_words_in_string(char* s) {
     return false;
 }
 
-
-void test_14_empty() {
-    char s[] = "";
-    assert(!are_identical_words_in_string(s));
-}
-
-
-void test_14_one_word() {
-    char s[] = "word";
-    assert(!are_identical_words_in_string(s));
-}
-
-
-void test_14_anagram_not_in_string() {
-    char s[] = "duplicate not in string";
-    assert(!are_identical_words_in_string(s));
-}
-
-
-void test_14_anagram_in_string() {
-    char s[] = "string in string";
-    assert(are_identical_words_in_string(s));
-}
-
-
-void test_14_find_anagram_words() {
-    test_14_empty();
-    test_14_one_word();
-    test_14_anagram_not_in_string();
-    test_14_anagram_in_string();
-}
-
-
 #endif //CODE_FIND_ANAGRAM_WORDS_H
