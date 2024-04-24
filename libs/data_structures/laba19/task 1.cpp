@@ -75,7 +75,7 @@ void transpose_matrix_in_file(const char* filename) {
 
 
 void test_matrix_transpose_1_one_element_matrix() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_1_test_1.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     int n = 1;
     int element = 10;
@@ -149,7 +149,7 @@ void test_matrix_transpose_2_unit_symmetric_matrix() {
 
 
 void test_matrix_transpose_3_matrix() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_1_test_3.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
     int n = 3;
     matrix m = create_matrix_from_array((int[]) {1, 2, 3,
                                                  4, 5, 6,

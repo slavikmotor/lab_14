@@ -128,7 +128,7 @@ void print_bin_file_matrix(const char* filename) {
 
 
 void test_transpose_non_symmetric_matrix_1_empty_matrix() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_8_test_1.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     int n = 0;
     FILE* file = fopen(filename, "wb");
@@ -150,7 +150,7 @@ void test_transpose_non_symmetric_matrix_1_empty_matrix() {
 
 
 void test_transpose_non_symmetric_matrix_2_one_matrices() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_8_test_2.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     int n = 1;
     int x1 = 1;
@@ -180,7 +180,7 @@ void test_transpose_non_symmetric_matrix_2_one_matrices() {
 
 
 void test_transpose_non_symmetric_matrix_3_symmetric_matrix() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_8_test_3.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     FILE* file = fopen(filename, "wb");
 
@@ -217,7 +217,7 @@ void test_transpose_non_symmetric_matrix_3_symmetric_matrix() {
 
 
 void test_transpose_non_symmetric_matrix_4_non_symmetric_matrix() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_8_test_4.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     FILE* file = fopen(filename, "wb");
 
@@ -260,7 +260,7 @@ void test_transpose_non_symmetric_matrix_4_non_symmetric_matrix() {
 
 
 void test_transpose_non_symmetric_matrix_5_mixed_matrix() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_8_test_5.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     FILE* file = fopen(filename, "wb");
 

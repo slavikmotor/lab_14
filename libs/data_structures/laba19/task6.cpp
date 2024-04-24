@@ -118,7 +118,7 @@ void print_polynomial(const char* filename) {
 
 
 void test_remove_true_polynomial_1_empty_file() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_6_test_1.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     FILE* file = fopen(filename, "wb");
     fclose(file);
@@ -137,7 +137,7 @@ void test_remove_true_polynomial_1_empty_file() {
 
 
 void test_remove_true_polynomial_2_not_true_expression() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_6_test_2.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     double x = 2.0;
     monomial x_2 = {.coefficient = 1.0, .degree = 2};
@@ -175,7 +175,7 @@ void test_remove_true_polynomial_2_not_true_expression() {
 
 
 void test_remove_true_polynomial_3_true_expression() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_6_test_3.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     double x = 1.0;
     monomial x_2 = {.coefficient = 1.0, .degree = 2};

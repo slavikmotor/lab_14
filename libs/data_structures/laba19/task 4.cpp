@@ -114,7 +114,7 @@ void filter_word(const char* filename, char* source_word) {
 
 
 void test_filter_word_1_empty_file() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_4_test_1.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     generate_string(filename, "");
     char source_word[] = "source";
@@ -130,7 +130,7 @@ void test_filter_word_1_empty_file() {
 
 
 void test_filter_word_2_sequence_not_in_line() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_4_test_2.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     generate_string(filename, "abcd ghtsdf");
     char source_word[] = "seq";
@@ -146,7 +146,7 @@ void test_filter_word_2_sequence_not_in_line() {
 
 
 void test_filter_word_3_sequence_in_line() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_4_test_3.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     generate_string(filename, "abcd word abc");
     char source_word[] = "abc";

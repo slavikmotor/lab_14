@@ -176,8 +176,8 @@ void print_product_and_order(const char* filename1, const char* filename2) {
 
 
 void test_update_product_1_empty_files() {
-    const char filename1[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_10_1_test_1.txt";
-    const char filename2[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_10_2_test_1.txt";
+    const char filename1[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
+    const char filename2[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     FILE* file = fopen(filename1, "wb");
     fclose(file);
@@ -203,8 +203,8 @@ void test_update_product_1_empty_files() {
 
 
 void test_update_product_2_first_file_empty() {
-    const char filename1[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_10_1_test_2.txt";
-    const char filename2[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_10_2_test_2.txt";
+    const char filename1[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
+    const char filename2[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     FILE* file = fopen(filename1, "wb");
     fclose(file);
@@ -237,8 +237,8 @@ void test_update_product_2_first_file_empty() {
 
 
 void test_update_product_3_second_file_empty() {
-    const char filename1[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_10_1_test_3.txt";
-    const char filename2[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_10_2_test_3.txt";
+    const char filename1[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
+    const char filename2[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     FILE* file = fopen(filename1, "wb");
     product pr = {.product_name="name", .unit_price=10, .total_cost=20, .quantity=2};
@@ -269,8 +269,8 @@ void test_update_product_3_second_file_empty() {
 
 
 void test_update_product_4_order_more_product() {
-    const char filename1[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_10_1_test_4.txt";
-    const char filename2[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_10_2_test_4.txt";
+    const char filename1[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
+    const char filename2[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     product pr1 = {.product_name="name1", .unit_price=10, .total_cost=30, .quantity=3};
     product pr2 = {.product_name="name2", .unit_price=20, .total_cost=40, .quantity=2};
@@ -308,8 +308,8 @@ void test_update_product_4_order_more_product() {
 
 
 void test_update_product_5_order_less_product() {
-    const char filename1[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_10_1_test_5.txt";
-    const char filename2[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_10_2_test_5.txt";
+    const char filename1[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
+    const char filename2[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     product pr1 = {.product_name="name1", .unit_price=10, .total_cost=30, .quantity=3};
     product pr2 = {.product_name="name2", .unit_price=20, .total_cost=240, .quantity=12};

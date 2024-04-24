@@ -83,7 +83,7 @@ void print_numbers_array(const char* filename) {
 
 
 void test_rearrange_numbers_1_empty_file() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_7_test_1.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     FILE* file = fopen(filename, "wb");
     fclose(file);
@@ -102,7 +102,7 @@ void test_rearrange_numbers_1_empty_file() {
 
 
 void test_rearrange_numbers_2_only_negative_numbers() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_7_test_2.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     int x1 = -1;
     int x2 = -2;
@@ -134,7 +134,7 @@ void test_rearrange_numbers_2_only_negative_numbers() {
 
 
 void test_rearrange_numbers_3_only_positive_numbers() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_7_test_3.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     int x1 = 1;
     int x2 = 2;
@@ -166,7 +166,7 @@ void test_rearrange_numbers_3_only_positive_numbers() {
 
 
 void test_rearrange_numbers_4_mixed_numbers() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_7_test_4.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     int x1 = -1;
     int x2 = 2;

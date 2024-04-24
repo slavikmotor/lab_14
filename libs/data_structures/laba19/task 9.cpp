@@ -117,7 +117,7 @@ void print_team(const char* filename) {
 
 
 void test_get_best_team_1_empty_file() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_9_test_1.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     FILE* file = fopen(filename, "wb");
     fclose(file);
@@ -136,7 +136,7 @@ void test_get_best_team_1_empty_file() {
 
 
 void test_get_best_team_2_n_more_quantity() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_9_test_2.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     FILE* file = fopen(filename, "wb");
 
@@ -164,7 +164,7 @@ void test_get_best_team_2_n_more_quantity() {
 
 
 void test_get_best_team_3_n_less_quantity() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_9_test_2.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     FILE* file = fopen(filename, "wb");
 

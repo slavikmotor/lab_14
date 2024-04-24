@@ -112,7 +112,7 @@ void test_evaluate_expression_1_empty_file() {
 
 
 void test_evaluate_expression_2_two_operand() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_3_test_2.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     char expression[] = "(2 * 3)";
     FILE* file = fopen(filename, "w");
@@ -122,7 +122,7 @@ void test_evaluate_expression_2_two_operand() {
     fclose(file);
 
 
-    evaluate_expression("C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_3_test_2.txt");
+    evaluate_expression("C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19");
 
 
     file = fopen(filename, "r");
@@ -139,7 +139,7 @@ void test_evaluate_expression_2_two_operand() {
 
 
 void test_evaluate_expression_3_three_operand() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_3_test_3.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     char expression[] = "(2 * 3) + 3";
     FILE* file = fopen(filename, "w");
@@ -149,7 +149,7 @@ void test_evaluate_expression_3_three_operand() {
     fclose(file);
 
 
-    evaluate_expression("C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_3_test_3.txt");
+    evaluate_expression("C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19");
 
 
     file = fopen(filename, "r");

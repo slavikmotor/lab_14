@@ -111,7 +111,7 @@ void leave_longest_word(const char* filename) {
 
 
 void test_leave_longest_word_1_empty_file() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_5_test_1.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
 
     FILE* file = fopen(filename, "w");
@@ -131,7 +131,7 @@ void test_leave_longest_word_1_empty_file() {
 
 
 void test_leave_longest_word_2_one_element_in_line() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_5_test_2.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     char line1[] = "abcd";
     char line2[] = "efg";
@@ -167,7 +167,7 @@ void test_leave_longest_word_2_one_element_in_line() {
 
 
 void test_leave_longest_word_3_more_element_in_line() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_5_test_3.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     char line1[] = "kkalsdf ssss ";
     char line2[] = "efg qweqw ";

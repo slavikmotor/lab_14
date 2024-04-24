@@ -60,7 +60,7 @@ void convert_float(const char* filename) {
 
 
 void test_convert_float_1_zero_quantity() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_2_test_1.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     FILE* file = fopen(filename, "w");
     fclose(file);
@@ -81,7 +81,7 @@ void test_convert_float_1_zero_quantity() {
 
 
 void test_convert_float_2_one_element() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_2_test_2.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     float number = 10.123;
 
@@ -110,7 +110,7 @@ void test_convert_float_2_one_element() {
 
 
 void test_convert_float_3_more_element() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_2_test_3.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
 
     float f1 = 1.123123;
     float f2 = 2.232323;
