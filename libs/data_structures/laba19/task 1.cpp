@@ -104,7 +104,7 @@ void test_matrix_transpose_1_one_element_matrix() {
 
 
 void test_matrix_transpose_2_unit_symmetric_matrix() {
-    const char filename[] = "C:\\Users\\Kirill\\Desktop\\laba_op_19\\task_1_test_2.txt";
+    const char filename[] = "C:\\Users\\Компьютер\\CLionProjects\\untitled1\\libs\\data_structures\\laba19";
     int n = 3;
     matrix m = create_matrix_from_array((int[]) {1, 0, 0,
                                                  0, 1, 0,
