@@ -8,6 +8,7 @@ add_executable(untitled1 main.c
         libs/data_structures/string_/string_.c
         libs/data_structures/string_/string_.h
         libs/data_structures/string_/test_string.c
+        libs/data_structures/laba20/infinitivePause.cpp
 )
 
 add_subdirectory(libs)

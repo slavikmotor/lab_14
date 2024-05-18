@@ -27,4 +27,18 @@ add_library(data_structures
         laba18/task/task18.cpp
         laba18/task/test_for_task.cpp
         laba18/task/task19.cpp
+        laba20/infinitivePause.cpp
+        laba20/infinitivePause.cpp
+        "laba20/infinitivePause/task 1.cpp"
+        laba20/infinitivePause/task2.cpp
+        laba20/infinitivePause/task3.cpp
+        laba20/infinitivePause/task4.cpp
+        laba20/infinitivePause/task5.cpp
+        laba20/infinitivePause/task6.cpp
+        laba20/infinitivePause/task7.cpp
+        laba20/infinitivePause/task8.cpp
+        laba20/infinitivePause/task9.cpp
+        laba20/infinitivePause/task10.cpp
+        laba20/infinitivePause/task11.cpp
+        laba20/infinitivePause/task12.cpp
 )
