@@ -41,4 +41,5 @@ add_library(data_structures
         laba20/infinitivePause/task10.cpp
         laba20/infinitivePause/task11.cpp
         laba20/infinitivePause/task12.cpp
+        laba20/infinitivePause/task11.cpp
 )
